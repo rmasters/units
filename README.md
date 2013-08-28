@@ -1,4 +1,4 @@
-# Units [![Latest Stable Version](https://poser.pugx.org/rmasters/units/v/stable.png)](https://packagist.org/packages/rmasters/units) [![master](https://travis-ci.org/rmasters/units.png?branch=master)](https://travis-ci.org/rmasters/units) [![Coverage Status](https://coveralls.io/repos/rmasters/units/badge.png)](https://coveralls.io/r/rmasters/units)
+# Units [![Latest Stable Version](https://poser.pugx.org/rmasters/units/v/stable.png)](https://packagist.org/packages/rmasters/units) [![master](https://travis-ci.org/rmasters/units.png?branch=master)](https://travis-ci.org/rmasters/units) [![Coverage Status](https://coveralls.io/repos/rmasters/units/badge.png)](https://coveralls.io/r/rmasters/units) [![Dependency status](http://www.versioneye.com/user/projects/521d4308632bac72d9035c93/badge.png)](http://www.versioneye.com/user/projects/521d4308632bac72d9035c93)
 
 Units is a small unit-of-measure conversion library written in PHP. It aims to be simple to use and extend.
 

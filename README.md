@@ -8,7 +8,7 @@ Units is installable via Composer. Add the following line to your project's comp
 
     "rmasters/units": "dev-master"
 
-Installable revisions of the package are listed at [Packagist](#) and documented on the [releases page](#).
+Installable revisions of the package are listed at [Packagist](http://packagist.org/packages/rmasters/units) and documented on the [releases page](https://github.com/rmasters/units/releases).
 
 ## Usage
 

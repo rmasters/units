@@ -1,4 +1,4 @@
-# Units
+# Units [![Latest Stable Version](https://poser.pugx.org/rmasters/units/v/stable.png)](https://packagist.org/packages/rmasters/units) [![master](https://travis-ci.org/rmasters/units.png?branch=master)](https://travis-ci.org/rmasters/units) [![Coverage Status](https://coveralls.io/repos/rmasters/units/badge.png)](https://coveralls.io/r/rmasters/units)
 
 Units is a small unit-of-measure conversion library written in PHP. It aims to be simple to use and extend.
 
@@ -6,7 +6,7 @@ Units is a small unit-of-measure conversion library written in PHP. It aims to b
 
 Units is installable via Composer. Add the following line to your project's composer.json under the `require` section, and run `composer update`.
 
-    "rmasters/units": "~1.0"
+    "rmasters/units": "dev-master"
 
 Installable revisions of the package are listed at [Packagist](#) and documented on the [releases page](#).
 

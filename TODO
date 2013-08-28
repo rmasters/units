@@ -7,4 +7,6 @@ For closures, it's probably not possible to work out the inverse of a function. 
 
 Specific unit tests for supplied conversions. Go for big numbers - test accuracy!
 
+Docblocks
+
 [0] https://github.com/nikic/PHP-Parser

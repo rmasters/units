@@ -14,6 +14,12 @@ Installable revisions of the package are listed at [Packagist](#) and documented
 
 The conversion class can either be instantiated directly, or used as a singleton using the supplied facade class. Each Convert instance has its own registry of units and conversions.
 
+Once units and conversions have been registered (see below), values can be converted as so:
+
+    use Units\Facade as Units;
+
+    Units::convert('kg', 'lb', 42); // => 92.568
+
 A number of standard conversions are supplied with the library. These functions register with the Facade singleton instance by default, or with a Convert instance if given.
 
     // Defined in src/Units/conversions/

@@ -69,6 +69,11 @@ class Convert
         }
 
         $this->conversions[$from->getAbbr()][$to->getAbbr()] = $conversion;
+
+        // If the conversion is reversable, and the inverse hasn't been defined, add it
+        if ($conversion->isReversable() && !$this->hasDirectConversion($to, $from)) {
+            $this->conversions[$to->getAbbr()][$from->getAbbr()] = $conversion->getReverseConversion();
+        }
     }
 
     public function hasUnit($unit)

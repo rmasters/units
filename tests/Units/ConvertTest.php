@@ -35,6 +35,17 @@ class ConvertTest extends \PHPUnit_Framework_TestCase
         $this->convert->conversion(42, 43, 10);
     }
 
+    public function testReverseConversionCreated()
+    {
+        $kg = new Unit('Kilogram', 'kg');
+        $g = new Unit('Gram', 'g');
+
+        $this->convert->conversion($g, $kg, 1000);
+
+        $this->assertTrue($this->convert->hasDirectConversion($g, $kg));
+        $this->assertTrue($this->convert->hasDirectConversion($kg, $g));
+    }
+
     public function testDirectConversions()
     {
         $from = new Unit('Kilogram', 'kg');
@@ -45,6 +56,7 @@ class ConvertTest extends \PHPUnit_Framework_TestCase
         $this->convert->register($other);
 
         // Convert the wrong way (currently we only know one way)
+        // Scalar units would figure this out
         $this->assertFalse($this->convert->hasDirectConversion($to, $from));
 
         // Convert from a known unit without a direct conversion
